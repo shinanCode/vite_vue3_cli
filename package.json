@@ -1,0 +1,28 @@
+{
+  "name": "vite_vue3_cli",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "prettier": "npx prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^3.0.5",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.1",
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "less": "^4.1.1",
+    "prettier": "^2.3.2",
+    "sass": "^1.35.2",
+    "scss": "^0.2.4",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.1",
+    "vue-tsc": "^0.0.24"
+  }
+}
